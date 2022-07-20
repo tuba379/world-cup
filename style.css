@@ -821,10 +821,10 @@ footer ul:nth-child(4) li a {
         margin: 0 auto;
     }
 
-    .view-all-btn a {
+    .view-all-btn  {
         display: block;
         text-decoration: none;
-        color: #FFFFFF;
+        color: yellow;
     }
 }
 
