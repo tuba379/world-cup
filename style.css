@@ -1,6 +1,5 @@
-/* ------fonts------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-/* -----Common styles----- */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -9,7 +8,7 @@ main {
     padding: 3% 5% 0 5%;
 }
 
-/* ----top banner styles---- */
+/* top banner */
 .top-banner {
     background: black;
     display: flex;
@@ -90,7 +89,7 @@ main {
 }
 
 
-/* ----blog section style---- */
+/* menu  */
 .blog-container {
     margin: 100px 0 100px 0;
     display: flex;
@@ -98,9 +97,9 @@ main {
 }
 
 .side-manu {
-    width: 312px;
-    height: 312px;
-    background: #054082;
+    width: 370px;
+    height: 319px;
+    background: black;
     border-radius: 10px;
 
     display: flex;
@@ -111,16 +110,16 @@ main {
 }
 
 .manu-btn {
-    width: 252px;
-    height: 64px;
-    background: #FFFFFF;
+    width: 200px;
+    height: 70px;
+    background: white;
     text-align: center;
     line-height: 64px;
     border-radius: 5px;
 }
 
 .manu-btn:hover {
-    box-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px yellow;
 }
 
 .active-btn {
@@ -139,7 +138,9 @@ main {
     color: #FFFFFF !important;
 }
 
-/* ----blogs style-----  */
+
+
+/* Blog */
 
 .blogs {
     display: grid;
@@ -209,10 +210,12 @@ main {
     display: none;
 }
 
-/* -------footer style-------- */
+
+
+/* footer*/
 footer {
     padding: 130px 130px 130px 130px;
-    background: #054082;
+    background: black;
 }
 
 footer h2 {
@@ -262,9 +265,7 @@ footer ul:nth-child(4) li a {
     color: #054082;
 }
 
-/* -------------------------------
-    style for match.html file 
-   ------------------------------- */
+/* upcoming match.html file*/
 
 /* top banner style */
 .top-banner-match {
@@ -288,16 +289,20 @@ footer ul:nth-child(4) li a {
 
 
 
-/* -----Match style---- */
+
+
+
+/* Upcoming Match  */
+
 .match-container {
     margin: 100px 0 100px 0;
     display: flex;
     gap: 20px;
 }
 
-/*------- matchs ------- */
+
 .match-manu-color{
-    background: #084561;
+    background: black;
 }
 
 .match-active-btn {
@@ -345,9 +350,9 @@ footer ul:nth-child(4) li a {
     color: #4d4d4d;
 }
 
-/* --------footer style -------- */
+/*footer*/
 .match-footer {
-    background: #084561;
+    background: black;
 }
 
 .match-footer ul:nth-child(4) li a {
@@ -355,9 +360,10 @@ footer ul:nth-child(4) li a {
 }
 
 
-/*------------------------------------------
-   Responsive design for X-Small device(index.html) 
------------------------------------------- */
+/*Responsive design Small device*/
+/* index.html */
+
+
 @media screen and (max-width:576px) {
     .top-banner {
         flex-direction: column;
@@ -394,7 +400,7 @@ footer ul:nth-child(4) li a {
 
     
 
-    /* ---blog container--- */
+    
     .blog-container {
         flex-direction: column;
         margin: 50px 0 50px 0;
@@ -413,7 +419,7 @@ footer ul:nth-child(4) li a {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* ----footer style----- */
+    /*footer style*/
     footer {
         padding: 20px 15px 20px 15px;
     }
@@ -443,9 +449,9 @@ footer ul:nth-child(4) li a {
     }
 }
 
-/*------------------------------------------
-   Responsive design for Small device(index.html) 
------------------------------------------- */
+/*Responsive design for Small device*/
+/* (index.html)  */
+
 @media screen and (min-width:577px) and (max-width: 768px) {
     .top-banner {
         height: 360px;
@@ -471,15 +477,9 @@ footer ul:nth-child(4) li a {
         width: 346px;
     }
 
-    .ball {
-        position: absolute;
-        width: 100px;
-        opacity: .84;
-        top: 140px;
-        left: 210px;
-    }
+    
 
-    /* ---blog container--- */
+    
     .blog-container {
         flex-direction: column;
         margin: 50px 0 50px 0;
@@ -496,7 +496,7 @@ footer ul:nth-child(4) li a {
         border: 1px solid #a8a8a8;
     }
 
-    /* ----blogs style-----  */
+    /*blogs style*/
     .blogs {
         grid-template-columns: repeat(2, 1fr) ;
     }
@@ -536,9 +536,10 @@ footer ul:nth-child(4) li a {
 }
 
 
-/*------------------------------------------
-   Responsive design for Medium device(index.html) 
------------------------------------------- */
+/* Responsive design for Medium device */
+/* (index.html) */
+
+
 @media screen and (min-width:769px) and (max-width: 992px) {
     .top-banner {
         height: 398px;
@@ -572,7 +573,7 @@ footer ul:nth-child(4) li a {
         left: 330px;
     }
 
-    /* ---blog container--- */
+    
     .blog-container {
         flex-direction: column;
         margin: 50px 0 50px 0;
@@ -589,7 +590,7 @@ footer ul:nth-child(4) li a {
         border: 1px solid #a8a8a8;
     }
 
-    /* ----blogs style-----  */
+    
     .blogs {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 30px;
@@ -631,9 +632,9 @@ footer ul:nth-child(4) li a {
 }
 
 
-/*------------------------------------------
-   Responsive design for X-Small device(match.html) 
------------------------------------------- */
+/*Responsive design for X-Small device */
+/* (match.html) */
+
 @media screen and (max-width:576px) {
     
     .top-banner-match {
@@ -677,9 +678,9 @@ footer ul:nth-child(4) li a {
     }
 }
 
-/*------------------------------------------
-   Responsive design for Small device(match.html) 
------------------------------------------- */
+/*Responsive design for Small device */
+/* (match.html) */
+
 @media screen and (min-width:577px) and (max-width: 768px) {
     .top-banner-match {
         height: 360px;
@@ -705,15 +706,7 @@ footer ul:nth-child(4) li a {
         width: 309px;
     }
 
-    .ball2 {
-        position: absolute;
-        width: 70px;
-        opacity: .84;
-        top: 337px;
-        left: 643px;
-    }
 
-    /* ---match container--- */
     .match-container {
         flex-direction: column;
         margin: 50px 0 50px 0;
@@ -730,7 +723,7 @@ footer ul:nth-child(4) li a {
         border: 1px solid #a8a8a8;
     }
 
-    /* ----matchs style-----  */
+    
     .matchs {
         grid-template-columns: repeat(2, 1fr) ;
     }
@@ -762,9 +755,8 @@ footer ul:nth-child(4) li a {
 }
 
 
-/*------------------------------------------
-   Responsive design for Medium device(match.html) 
------------------------------------------- */
+/* Responsive design for Medium device */
+/* match.html */
 @media screen and (min-width:769px) and (max-width: 992px) {
     .top-banner-match {
         height: 398px;
@@ -791,9 +783,7 @@ footer ul:nth-child(4) li a {
     }
 
     
-    
 
-    /* ---match container--- */
     .match-container {
         flex-direction: column;
         margin: 50px 0 50px 0;
@@ -810,7 +800,7 @@ footer ul:nth-child(4) li a {
         border: 1px solid #a8a8a8;
     }
 
-    /* ----matchs style-----  */
+    
     .matchs {
         grid-template-columns: repeat(2, 1fr) ;
         margin-top: 30px;
@@ -838,8 +828,4 @@ footer ul:nth-child(4) li a {
     }
 }
 
-.container {
-    width: 1321px;
-    height: 646px;
-}
 
